@@ -9,7 +9,7 @@ from transformers import get_linear_schedule_with_warmup
 
 
 from refined.inference.processor import Refined
-# from refined.data_types.doc_types import Doc
+from refined.data_types.doc_types import Doc
 from refined.dataset_reading.entity_linking.wikipedia_dataset import WikipediaDataset
 from refined.doc_preprocessing.preprocessor import PreprocessorInferenceOnly
 from refined.doc_preprocessing.wikidata_mapper import WikidataMapper
